@@ -6,7 +6,6 @@ import Input from "./components/Input.jsx";
 
 function App() {
     const [type, setType] = useState(0)
-    const [insertedUnits, setInsertedUnits] = useState({})
     const [initialUnits, setInitialUnits] = useState('')
     const [resultUnits, setResultUnits] = useState()
 
